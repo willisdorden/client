@@ -1,0 +1,401 @@
+.tit-page {
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    box-shadow: 0 -1px 0 rgba(0,0,0,.1) inset;
+    overflow: hidden;
+    margin-bottom: 8px;
+    color: #666c75;
+    /*font-size: 20px;*/
+    font-weight: 400;
+}
+
+
+.tit-page .date-section {
+    float: right;
+    margin-top: 15px;
+    text-align: right;
+}
+div {
+    display: block;
+}
+
+.tit-page .date-section select {
+    width: 150px;
+    float: left;
+    margin-right: 3px;
+}
+
+.cw-autocomplete-container, .uneditable-input, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=tel], input[type=color], input[type=search], select, textarea {
+    font-size: 14px;
+    border: 1px solid #9ea3aa;
+    color: #000;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.5);
+}
+
+input[type=file], select {
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.tit-page .date-section .range-date {
+    float: right;
+    vertical-align: top;
+    margin-bottom: 10px;
+    position: relative;
+}
+.hide {
+    display: none;
+}
+
+.tit-page .date-section .range-date .input-append {
+    display: inline;
+    margin-left: 10px;
+}
+
+.tit-page .date-section .range-date .icon-arrow-right {
+    font-size: 16px;
+    position: absolute;
+    top: 6px;
+    right: 147px;
+}
+
+.input-append, .input-prepend {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.tit-page .date-section .range-date .input-append input {
+    width: 100px;
+}
+
+.date .field[readonly], .date input[readonly],
+.datetime .field[readonly], .datetime input[readonly] {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.input-append .add-on:last-child, .input-append .btn-group:last-child>.dropdown-toggle,
+.input-append .btn:last-child {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+.input-append .add-on, .input-append .btn, .input-append .btn-group {
+    margin-left: -1px;
+}
+.input-append .add-on, .input-append .btn, .input-append .btn-group>.dropdown-toggle,
+.input-prepend .add-on, .input-prepend .btn, .input-prepend .btn-group>.dropdown-toggle {
+    vertical-align: top;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.input-append .add-on, .input-prepend .add-on {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    min-width: 16px;
+    padding: 4px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+.add-on {
+    text-decoration: none;
+}
+
+input[type=password], input[type=datetime], input[type=datetime-local],
+input[type=date], input[type=month], input[type=time],
+input[type=week], input[type=number], input[type=email],
+input[type=url], input[type=tel], input[type=color],
+input[type=search], select, textarea {
+    font-size: 14px;
+    border: 1px solid #9ea3aa;
+    color: #000;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.5);
+}
+
+.input-append .uneditable-input, .input-append input, .input-append select,
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child {
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+.input-append .uneditable-input, .input-append input, .input-append select,
+.input-prepend .uneditable-input, .input-prepend input, .input-prepend select {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+.input-append .dropdown-menu, .input-append .popover,
+.input-append .uneditable-input, .input-append input,
+.input-append select, .input-prepend .dropdown-menu,
+.input-prepend .popover, .input-prepend .uneditable-input,
+.input-prepend input, .input-prepend select {
+    font-size: 14px;
+}
+input[disabled], input[readonly], select[disabled],
+select[readonly], textarea[disabled], textarea[readonly] {
+    cursor: not-allowed;
+    background-color: #eee;
+}
+
+@media (min-width: 1200px) {
+    .uneditable-input, input, textarea {
+        margin-left: 0;
+    }
+
+    .uneditable-input, input, textarea {
+        margin-left: 0;
+    }
+
+    .uneditable-input, input, textarea {
+        width: 206px;
+    }
+}
+
+.input-append.date .add-on i, .input-prepend.date .add-on i {
+    display: block;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+.add-on .icon-calendar {
+    padding-top: 2px;
+}
+[class*=" icon-"], [class^=icon-] {
+    background-image: none;
+    width: auto;
+}
+[class*=" icon-"], [class^=icon-] {
+    font-family: inherit;
+    text-decoration: none;
+}
+[class*=" icon-"], [class^=icon-] {
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-top: 0;
+}
+.icon-calendar {
+    background-position: -192px -120px;
+}
+
+.icon-arrow-right {
+    background-position: -264px -96px;
+}
+form i {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+[class*=" icon-"]:before, [class^=icon-]:before {
+    margin-right: 6px;
+}
+.ae-ico-facebook1::before, [class*=" icon-"]::before, [class^=icon-]::before {
+    font-family: FontAwesome;
+}
+.icon-arrow-right:before {
+    content: "\f061";
+}
+[class*=" icon-"]:before, [class^=icon-]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+}
+[class*=" icon-"]:after, [class^=icon-]:after {
+    font-weight: 400;
+    text-decoration: inherit;
+    line-height: 1;
+    display: inline-block;
+}
+.icon-remove::after, [class*=" icon-"]:after, [class^=icon-]:after {
+    font-family: icons2-adespresso;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+.tit-page .tit1 {
+    display: block;
+}
+.tit-page .tit, .tit-page .tit1 {
+    color: inherit;
+    font-size: inherit;
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+}
+.tit1 {
+    color: #000;
+}
+.tit1, .tit2 {
+    font-size: 20px;
+}
+.tit1, .tit4 {
+    font-weight: 700;
+}
+h2 {
+    font-size: 31.5px;
+}
+h1, h2, h3, legend {
+    line-height: 40px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.tit-page .loading {
+    margin: 0 0 0 10px;
+    font-size: .8em;
+}
+.loading {
+    margin-top: 2px;
+}
+.loading {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1em;
+    text-decoration: none;
+}
+.ae-ico-loading, .btn-refresh-alt.refreshing::after, .btn-refresh.refreshing::before, .loading {
+    animation: anim-spin 1s infinite linear;
+}
+
+@media only screen and (max-width: 1490px) {
+    #mainNav .content, #subNav .content, .head-extra-bar .content, .head-toolbar .content, .paginator, footer .content {
+        width: 86.30952381%;
+        clear: both;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+
+    #mainNav .content, #subNav .content, .head-extra-bar .content, .head-toolbar .content, .paginator, footer .content {
+        width: 90.97619048%;
+        clear: both;
+        display: block;
+        margin: auto;
+        float: none;
+        max-width: 1500px;
+    }
+
+    .ly-full-section, .paginator {
+        min-height: 350px;
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+        display: block;
+    }
+
+    article, aside, footer, header, hgroup, main, nav, section {
+        display: block;
+    }
+}
+
+#main form {
+    overflow: visible;
+}
+form {
+    overflow: hidden;
+}
+form {
+    margin: 0 0 20px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+@media (min-width: 1200px) {
+    .uneditable-input, input, textarea {
+        margin-left: 0;
+    }
+
+    .uneditable-input, input, textarea {
+        margin-left: 0;
+    }
+
+    .uneditable-input, input, textarea {
+        width: 206px;
+    }
+    button, input, label, select, textarea {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .navbar-search .search-query, button, input, select, textarea {
+        font-family: Arial,Helvetica,sans-serif;
+    }
+    button, input, select, textarea {
+        margin: 0;
+        font-size: 100%;
+        vertical-align: middle;
+    }
+}
+
+input[type="hidden" ], input[type="image" ], input[type="file" ] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    padding: initial;
+    border: initial;
+}
+input[type="hidden" ] {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
