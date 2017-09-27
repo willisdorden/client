@@ -29,12 +29,7 @@ class FacebookApi extends Controller
 
 
 
-        $ad_id = "23842620178120418";
-        $campaign_id = $Adid;
-        $app_id = "266019973906156";
-        $access_token = 'EAADx8ZAoMPuwBAEN6zEMzm2SEGrewgFWllMX9PJTHy6ZBxzmHvAvDkxHkLUwDflpkztIZAZAruWzG2A4edwg4Fru40SlP4gZC1iDZAB1NumtfUcE9xmsdkRGNAmK0mDESZCCdQu7a6Erpik8WsK44sYM6vWt4Dn4kd1WYhtyLGWhS87LeOmgfH18cnYCCPo5xUZD';
-        $ad_account_id = 'act_746430005546805';
-        $app_secret = '6636b08694496ee3956d16864fca3446';
+
         require '/Users/admin/Desktop/facebook larvel/worktestfacebook/vendor/autoload.php';
 
 
