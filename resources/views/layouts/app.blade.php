@@ -78,5 +78,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/graph.js') }}"></script>
+
 </body>
 </html>

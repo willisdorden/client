@@ -1,0 +1,955 @@
+#overflowPanel {
+    position: relative;
+    background: #fff;
+    margin: 10px .5952381% 20px;
+}
+#overflowPanel {
+    display: inline;
+    float: left;
+    width: 98.80952381%;
+    margin-left: .5952381%;
+    margin-right: .5952381%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #fff;
+}
+/*#overflowPanel, .xxlarge {*/
+    /*width: 98.80952381%;*/
+    /*display: inline;*/
+    /*float: left;*/
+/*}*/
+
+
+#overflowPanel .panel1 #custome {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(255,255,255,.75);
+    background-color: #fcfcfc;
+    background-image: linear-gradient(to bottom,#fff,#f7f7f7);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-bottom-color: #b3b3b3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 2px 0 rgba(204,204,204,.9), inset 0 1px 0 rgba(255,255,255,.3);
+    text-decoration: none;
+    border-radius: 0 0 3px;
+    border-top: none;
+    border-left: none;
+    font-size: 12px;
+    line-height: normal;
+    padding: 5px;
+    color: #3B5998;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: auto;
+    white-space: nowrap;
+}
+
+#overflowPanel .panel1 #custome, #subNav .btn-group.open .btn4 {
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#overflowPanel .panel1 .graph-info {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 11px;
+}
+
+#overflowPanel .panel1 .graph-info .alert.alert-info {
+    color: inherit;
+}
+
+#overflowPanel .panel1 .graph-info .alert {
+    padding: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+}
+
+#overflowPanel .graph {
+    width: auto;
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 25px!important;
+    padding-right: 20px!important;
+    padding-left: 0!important;
+}
+
+element.style {
+    position: relative;
+    overflow: hidden;
+    width: 823px;
+    height: 370px;
+    text-align: left;
+    line-height: normal;
+    z-index: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+#overflowPanel .graph .highcharts-container {
+    margin-top: -10px;
+}
+
+element.style {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}
+
+
+ol, ul {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+
+
+.alert {
+    position: relative;
+    width: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    clear: both;
+    border-radius: 0;
+    box-shadow: 0 3px 0 rgba(0,0,0,.07);
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-info, .alert-info h4 {
+    color: #3a87ad;
+}
+
+.alert, .alert h4 {
+    color: #e17000;
+}
+
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    background-color: #ffe1ae;
+    border: 1px solid #ffc994;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.alert, .btn-review, .nav-header, .nav-list .nav-header, .nav-list>li>a {
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+
+[class*=" icon-"], [class^=icon-] {
+    background-image: none;
+    width: auto;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: inherit;
+    text-decoration: none;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-top: 0;
+}
+
+.icon-cog {
+    background-position: -432px 0;
+}
+
+a, a .icon, a [class*=" icon-"], a [class^=icon-], a::after, a::before {
+    text-decoration: none;
+}
+
+a {
+    color: #2b53a8;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+
+
+.icon-cog:before, .icon-gear:before {
+    content: "\f013";
+}
+
+[class*=" icon-"]:before, [class^=icon-]:before {
+    margin-right: 6px;
+}
+
+.ae-ico-facebook1::before, [class*=" icon-"]::before, [class^=icon-]::before {
+    font-family: FontAwesome;
+}
+
+.icon-cog:before, .icon-gear:before {
+    content: "\f013";
+}
+
+[class*=" icon-"]:before, [class^=icon-]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+}
+
+a, a .icon, a [class*=" icon-"], a [class^=icon-], a::after, a::before {
+    text-decoration: none;
+}
+
+.icon-remove::after, [class*=" icon-"]:after, [class^=icon-]:after {
+    font-family: icons2-adespresso;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+a, a .icon, a [class*=" icon-"], a [class^=icon-], a::after, a::before {
+    text-decoration: none;
+}
+
+a, a .icon, a [class*=" icon-"], a [class^=icon-], a::after, a::before {
+    text-decoration: none;
+}
+
+.box {
+    border: 1px solid rgba(183,184,187,.5);
+    border-radius: 3px;
+    background-color: #fdfdfd;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.box, .box footer {
+    box-shadow: 0 1px 0 #fff inset;
+}
+
+#overflowPanel .panel1 {
+    display: table;
+}
+
+.panel {
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+.modal.fade {
+    top: -100%;
+    -webkit-transition: opacity .3s linear,top .3s ease-out,bottom .3s ease-out,margin-top .3s ease-out;
+    -moz-transition: opacity .3s linear,top .3s ease-out,bottom .3s ease-out,margin-top .3s ease-out;
+    -o-transition: opacity .3s linear,top .3s ease-out,bottom .3s ease-out,margin-top .3s ease-out;
+    transition: opacity .3s linear,top .3s ease-out,bottom .3s ease-out,margin-top .3s ease-out;
+}
+
+.modal {
+    margin-bottom: 70px;
+    background: #fff;
+    border: 10px solid #f2f2f2;
+    color: #373a3f;
+    border-radius: 3px;
+    box-shadow: 0 5px 0 rgba(0,0,0,.45);
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 0;
+    top: 50%;
+    overflow: visible;
+    left: 50%;
+    z-index: 1060;
+    width: 560px;
+    margin-left: -280px;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-clip: padding-box;
+    outline: 0;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+
+.fade {
+    opacity: 0;
+    transition: opacity .15s linear;
+}
+
+.modal .modal-header {
+    padding: 15px;
+    background: #fff;
+    border-bottom: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.modal-header {
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal .modal-header .close {
+    font-size: 20px;
+    opacity: .8;
+    color: #373a3f;
+    margin-top: -5px;
+}
+
+.modal-header .close {
+    margin-top: 2px;
+}
+
+button.close {
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.btn, .btn-link, button.close {
+    cursor: pointer;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+}
+
+.close, .nav-header {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.modal .modal-header .modal-title, .modal .modal-header h3, .modal .tit-modal {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 400;
+    color: #373a3f;
+    line-height: 1em;
+}
+
+.modal-header h3 {
+    margin: 0;
+    line-height: 30px;
+}
+
+.preview-modal .modal-body {
+    max-height: inherit;
+}
+
+.modal .modal-body {
+    padding: 0 15px 15px;
+}
+
+.modal-body {
+    max-height: none;
+    overflow: visible;
+    position: relative;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+
+.modal .modal-body p {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ol, ul {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+.list-column li:nth-child(odd) {
+    float: left;
+}
+
+.list-column li:nth-child(even), .list-column li:nth-child(odd) {
+    display: inline;
+    width: 48.80952381%;
+    margin-left: .5952381%;
+    margin-right: .5952381%;
+}
+
+.list-column li:nth-child(even) {
+    float: right;
+    text-align: left;
+}
+
+address, blockquote small, dd, dt, li, pre {
+    line-height: 20px;
+}
+
+address, blockquote small, dd, dt, li, pre {
+    line-height: 20px;
+}
+
+.checkbox, .radio {
+    min-height: 20px;
+    padding-left: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+address, label, legend, pre {
+    display: block;
+}
+
+.preview-modal .modal-footer {
+    clear: both;
+    padding-top: 0;
+    background: 0 0;
+    border-top: none;
+}
+
+.modal .modal-footer {
+    clear: both;
+    padding: 15px 15px 10px;
+    background-color: #f2f2f2;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 #fff inset;
+}
+
+.box footer {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+
+.modal-footer {
+    padding: 14px 15px 15px;
+    text-align: right;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    box-shadow: inset 0 1px 0 #fff;
+}
+
+.modal-footer, .modal-form {
+    margin-bottom: 0;
+}
+
+.modal-footer .btn+.btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.btn-success {
+    box-shadow: 0 2px 0 rgba(39,102,39,.9), inset 0 1px 0 rgba(255,255,255,.3);
+    text-shadow: 0 1px 1px rgba(0,0,0,.25);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #55bc55;
+    background-image: linear-gradient(to bottom,#62c462,#42b142);
+    border-color: #42b142 #42b142 #2d792d;
+    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+}
+
+
+.checkbox input[type=checkbox], .radio input[type=radio] {
+    float: left;
+    margin-left: -20px;
+}
+
+input[type=checkbox] {
+    border-radius: 2px;
+}
+
+input[type=radio], input[type=checkbox] {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    color: #3B5998;
+    text-shadow: none;
+    background: #fff;
+    border: 1px solid #9ea3aa;
+    box-shadow: 0 2px 0 rgba(0,0,0,.1);
+    -webkit-appearance: none;
+}
+
+#overflowPanel .list-cat .list .value.type-a {
+    border-color: #9AC625;
+}
+
+#overflowPanel .list-cat .list.active .type-a {
+    border-color: #9AC625;
+    background-color: #87ab26;
+}
+
+#overflowPanel .list-cat .list.active .type-a+.dat {
+    background-color: #7e9e29;
+}
+
+#overflowPanel .list-cat .list .value.type-b {
+    border-color: #FB9700;
+}
+
+#overflowPanel .list-cat .list.active .type-b {
+    border-color: #FB9700;
+    background-color: #dc8706;
+}
+
+#overflowPanel .list-cat .list.active .type-b+.dat {
+    background-color: #cd7f0b;
+}
+
+#overflowPanel .list-cat .list .value.type-c {
+    border-color: #008BEF;
+}
+
+#overflowPanel .list-cat .list.active .type-c {
+    border-color: #008BEF;
+    background-color: #057bd0;
+}
+
+#overflowPanel .list-cat .list.active .type-c+.dat {
+    background-color: #0a75c1;
+}
+
+#overflowPanel .list-cat .list .value.type-d {
+    border-color: #BC1D00;
+}
+
+#overflowPanel .list-cat .list.active .type-d {
+    border-color: #BC1D00;
+    background-color: #9e1c04;
+}
+
+#overflowPanel .list-cat .list.active .type-d+.dat {
+    background-color: #911d08;
+}
+
+#overflowPanel .list-cat .list .value.type-e {
+    border-color: #FB4D00;
+}
+
+#overflowPanel .list-cat .list.active .type-e {
+    border-color: #FB4D00;
+    background-color: #dc4706;
+}
+
+#overflowPanel .list-cat .list.active .type-e+.dat {
+    background-color: #cd460b;
+}
+
+#overflowPanel .list-cat .list .value.type-j {
+    border-color: #A25B9C;
+}
+
+#overflowPanel .list-cat .list .value.type-k {
+    border-color: #00C5AF;
+}
+
+#overflowPanel .list-cat .list.active .type-l {
+    border-color: #0338F2;
+    background-color: #0835d3;
+}
+
+#overflowPanel .list-cat .list .value.type-l {
+    border-color: #0338F2;
+}
+
+#overflowPanel .list-cat .list.active .type-l+.dat {
+    background-color: #0d36c4;
+}
+
+#overflowPanel .list-cat .list .value.type-m {
+    border-color: #E500C7;
+}
+
+#overflowPanel .list-cat .list.active .type-j {
+    border-color: #A25B9C;
+    background-color: #8c5888;
+}
+
+#overflowPanel .list-cat .list.active .type-j+.dat {
+    background-color: #80597d;
+}
+
+#overflowPanel .list-cat .list .value.type-n {
+    border-color: #17DBFE;
+}
+
+#overflowPanel .list-cat .list .value {
+    float: left;
+    width: 43%;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0,0,0,.1);
+    box-shadow: -1px 0 0 #fff inset;
+    border-left: 7px solid #b6b9bf;
+}
+
+.list-cat .list .value {
+    margin: 0;
+    font-weight: 700;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+    background: 0 0;
+}
+
+.value {
+    font-style: normal;
+}
+
+.dat, .value {
+    font-size: 16px;
+}
+
+#overflowPanel .list-cat .list .dat {
+    float: left;
+    width: 57%;
+    text-align: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-cat .list .dat {
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-cat .list .dat, .list-cat .list .value {
+    display: inline-block;
+    padding: 5px;
+    font-size: 1em;
+    line-height: 1.8em;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#overflowPanel .list-cat .list.active .value {
+    font-weight: 700;
+    border-right: 1px solid rgba(0,0,0,.5);
+    box-shadow: 1px 0 0 #fff;
+}
+
+#overflowPanel .list-cat .list.active .dat, #overflowPanel .list-cat .list.active .value {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+
+#overflowPanel .list-cat {
+    width: 31.30952381%;
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    margin: 0 0 0 10px;
+    background: rgba(0,0,0,.03);
+}
+/*!**!this is what changes the hight of the buttons*/
+#overflowPanel .list-cat .list .checkbox {
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-height: inherit;
+}
+
+#overflowPanel .list-cat .list {
+    padding: 0;
+    height: auto;
+    line-height: normal;
+}
+
+#overflowPanel .list-cat .list .sel-cat {
+    display: none;
+}
+
+#overflowPanel .list-cat .list.active {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1) inset;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    color: #000;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.list-cat .list {
+    background-color: #fcfcfc;
+    background-image: linear-gradient(to bottom,#fff,#f7f7f7);
+    background-repeat: repeat-x;
+    filter: none;
+    position: relative;
+    overflow: hidden;
+    padding: 3px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #373a3f;
+}
+
+.value {
+    font-style: normal;
+}
+
+.dat, .value {
+    font-size: 16px;
+}
+
+.dat {
+    color: #5a5f68;
+}
+
+.btn3, .dat {
+    font-weight: 700;
+}
+
+
+.checkbox input[type=checkbox], .radio input[type=radio] {
+    float: left;
+    margin-left: -20px;
+}
+
+.head-box, .list-cat .list, body {
+    text-shadow: 0 1px 0 #fff;
+}
+
+element.style {
+    position: relative;
+    overflow: hidden;
+    width: 822px;
+    height: 370px;
+    text-align: left;
+    line-height: normal;
+    z-index: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    touch-action: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#overflowPanel .panel1 .graph-info .alert.alert-info::before {
+    content: "\f05a";
+}
+
+#overflowPanel .panel1 .graph-info .alert.alert-info::before, #overflowPanel .panel1 .graph-info .alert::before {
+    font-family: FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#overflowPanel .panel1 .graph-info .alert::before {
+    content: "\f071";
+}
+
+
+
+#draftsPanel .panel ::-webkit-scrollbar, #overflowPanel ::-webkit-scrollbar,
+#tableAds ::-webkit-scrollbar, #topPerformance ::-webkit-scrollbar, .accounts-list ::-webkit-scrollbar,
+.aggr-table-body ::-webkit-scrollbar, .asset-manager .asset-manager-main ::-webkit-scrollbar,
+.asset-manager .asset-manager-sidebar ::-webkit-scrollbar,
+.c-search-browse .browse-folder .dropdown-menu ::-webkit-scrollbar,
+.configuration-module .main ::-webkit-scrollbar, .configuration-module .sidebar ::-webkit-scrollbar,
+.flip-scroll ::-webkit-scrollbar, .module-inside ::-webkit-scrollbar,
+.popover-alert-error .popover-content ::-webkit-scrollbar,
+.popover-list-recap .popover-content ::-webkit-scrollbar, .report-bx ::-webkit-scrollbar,
+.report-recap-table .table-wrapper ::-webkit-scrollbar, .scroll-bar ::-webkit-scrollbar,
+.scroll-bar-horizontal ::-webkit-scrollbar, .scroll-bar-vertical ::-webkit-scrollbar,
+.sec-create-campaign .video-choice .popover ::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+#draftsPanel .panel ::-webkit-scrollbar-corner, #overflowPanel ::-webkit-scrollbar-corner,
+#tableAds ::-webkit-scrollbar-corner, #topPerformance ::-webkit-scrollbar-corner,
+.accounts-list ::-webkit-scrollbar-corner, .aggr-table-body ::-webkit-scrollbar-corner,
+.asset-manager .asset-manager-main ::-webkit-scrollbar-corner, .asset-manager .asset-manager-sidebar ::-webkit-scrollbar-corner,
+.c-search-browse .browse-folder .dropdown-menu ::-webkit-scrollbar-corner,
+.configuration-module .main ::-webkit-scrollbar-corner, .configuration-module .sidebar ::-webkit-scrollbar-corner,
+.flip-scroll ::-webkit-scrollbar-corner, .module-inside ::-webkit-scrollbar-corner,
+.popover-alert-error .popover-content ::-webkit-scrollbar-corner, .popover-list-recap .popover-content ::-webkit-scrollbar-corner,
+.report-bx ::-webkit-scrollbar-corner, .report-recap-table .table-wrapper ::-webkit-scrollbar-corner,
+.scroll-bar ::-webkit-scrollbar-corner, .scroll-bar-horizontal ::-webkit-scrollbar-corner,
+.scroll-bar-vertical ::-webkit-scrollbar-corner, .sec-create-campaign .video-choice .popover ::-webkit-scrollbar-corner {
+    background: 0 0;
+}
+#draftsPanel .panel ::-webkit-scrollbar-thumb, #overflowPanel ::-webkit-scrollbar-thumb,
+#tableAds ::-webkit-scrollbar-thumb, #topPerformance ::-webkit-scrollbar-thumb,
+.accounts-list ::-webkit-scrollbar-thumb, .aggr-table-body ::-webkit-scrollbar-thumb,
+.asset-manager .asset-manager-main ::-webkit-scrollbar-thumb, .asset-manager .asset-manager-sidebar ::-webkit-scrollbar-thumb,
+.c-search-browse .browse-folder .dropdown-menu ::-webkit-scrollbar-thumb, .configuration-module .main ::-webkit-scrollbar-thumb,
+.configuration-module .sidebar ::-webkit-scrollbar-thumb, .flip-scroll ::-webkit-scrollbar-thumb,
+.module-inside ::-webkit-scrollbar-thumb, .popover-alert-error .popover-content ::-webkit-scrollbar-thumb,
+.popover-list-recap .popover-content ::-webkit-scrollbar-thumb, .report-bx ::-webkit-scrollbar-thumb,
+.report-recap-table .table-wrapper ::-webkit-scrollbar-thumb, .scroll-bar ::-webkit-scrollbar-thumb,
+.scroll-bar-horizontal ::-webkit-scrollbar-thumb, .scroll-bar-vertical ::-webkit-scrollbar-thumb,
+.sec-create-campaign .video-choice .popover ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: rgba(0,0,0,.5);
+}
+
+#bestPeriod .list-performance:after, #bestPeriod .list-performance:before, #contactBox .content:after,
+#contactBox .content:before, #fbAccounts .sec-intro:after, #fbAccounts .sec-intro:before,
+#fbAccountsImport .sec-intro:after, #fbAccountsImport .sec-intro:before, #frequencyBox .content:after,
+#frequencyBox .content:before, #goalsConv .goals-data li:after, #goalsConv .goals-data li:before,
+#goalsConv .goals-final ul:after, #goalsConv .goals-final ul:before, #head #mainNav .menu:after,
+#head #mainNav .menu:before, #head:after, #head:before, #planBox .plan:after, #planBox .plan:before,
+#planBox .summary:after, #planBox .summary:before, #popUpPaymentMethod .modal-header:after,
+#popUpPaymentMethod .modal-header:before, #popUpSelectModule .search-filters:after,
+#popUpSelectModule .search-filters:before, #summary #creatives .content>.list:after,
+#summary #creatives .content>.list:before, #topFactors .conversions-stats .stats-data>li:after,
+#topFactors .conversions-stats .stats-data>li:before, #usersManagementPag .sec-intro:after,
+#usersManagementPag .sec-intro:before, .accounts-list .footer-extra:after, .accounts-list .footer-extra:before,
+.balloon-box footer:after, .balloon-box footer:before, .box footer:after, .box footer:before,
+.box.promo-plans-box .content:after, .box.promo-plans-box .content:before, .clearfix:after,
+.clearfix:before, .configuration-module .group-button:after, .configuration-module .group-button:before,
+.container:after, .container:before, .head-box:after, .head-box:before, .intro:after, .intro:before,
+.list-versions.auto-complete-list>li:after, .list-versions.auto-complete-list>li:before,
+.ly-full-section:after, .ly-full-section:before, .modal .calltoact:after, .modal .calltoact:before,
+.modal .modal-body:after, .modal .modal-body:before, .nl-form .calltoact:after, .nl-form .calltoact:before,
+.nl-form:after, .nl-form:before, .onboarding-flow .extra-info:after, .onboarding-flow .extra-info:before,
+.paginator:after, .paginator:before, .plan-summary:after, .plan-summary:before, .popup-gallery .files:after,
+.popup-gallery .files:before, .row-fluid:after, .row-fluid:before, .row:after, .row:before, .score-recap:after,
+.score-recap:before, .sec-create-campaign #secCarousel .ad-item-list .list-thumb:after,
+.sec-create-campaign #secCarousel .ad-item-list .list-thumb:before,
+.sec-create-campaign #secGoal .panel .form-horizontal.collapse:after, .sec-create-campaign #secGoal .panel .form-horizontal.collapse:before,
+.sets-rules-list .rule-optimiz .rule-head:after, .sets-rules-list .rule-optimiz .rule-head:before,
+.sets-rules-list .set-head:after, .sets-rules-list .set-head:before, .sets-rules-list .set-pane:after,
+.sets-rules-list .set-pane:before, .sets-rules-list-choice>.set-rules-item:after,
+.sets-rules-list-choice>.set-rules-item:before, .subscriptions:after, .subscriptions:before {
+    content: "";
+    display: table;
+}
+
+
+#bestPeriod .list-performance:after, #contactBox .content:after, #fbAccounts .sec-intro:after,
+#fbAccountsImport .sec-intro:after, #frequencyBox .content:after, #goalsConv .goals-data li:after,
+#goalsConv .goals-final ul:after, #head #mainNav .menu:after, #head:after, #planBox .plan:after,
+#planBox .summary:after, #popUpPaymentMethod .modal-header:after, #popUpSelectModule .search-filters:after,
+#summary #creatives .content>.list:after, #topFactors .conversions-stats .stats-data>li:after,
+#usersManagementPag .sec-intro:after, .accounts-list .footer-extra:after, .balloon-box footer:after,
+.box footer:after, .box.promo-plans-box .content:after, .clearfix:after,
+.configuration-module .group-button:after, .container-fluid:after, .container:after,
+.dl-horizontal:after, .head-box:after, .intro:after, .list-versions.auto-complete-list>li:after,
+.ly-full-section:after, .modal .calltoact:after, .modal .modal-body:after, .nl-form .calltoact:after,
+.nl-form:after, .onboarding-flow .extra-info:after, .paginator:after, .plan-summary:after,
+.popup-gallery .files:after, .row-fluid:after, .row:after, .score-recap:after,
+.sec-create-campaign #secCarousel .ad-item-list .list-thumb:after, .sec-create-campaign #secGoal .panel .form-horizontal.collapse:after,
+.sets-rules-list .rule-optimiz .rule-head:after, .sets-rules-list .set-head:after,
+.sets-rules-list .set-pane:after, .sets-rules-list-choice>.set-rules-item:after, .subscriptions:after {
+    clear: both;
+}

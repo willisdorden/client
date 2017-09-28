@@ -276,6 +276,16 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
 .tit-page .loading {
     margin: 0 0 0 10px;
     font-size: .8em;

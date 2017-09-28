@@ -1,0 +1,567 @@
+#dashboard #overflowPanel .panel2 {
+    border-bottom: 0;
+}
+
+#dashboard #overflowPanel .panel2 .cont1, #dashboard #overflowPanel .panel2 .cont2 {
+    padding: 0 2% 30px 2%;
+    font-size: 12px;
+}
+
+#overflowPanel .panel2 {
+    background: #fdfdfd;
+    border-top: 3px solid #b6b9bf;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 #fff;
+    display: table;
+}
+
+.panel {
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+#dashboard #overflowPanel .panel2 .cont1, #dashboard #overflowPanel .panel2 .cont2 {
+    padding: 0 2% 30px 2%;
+    font-size: 12px;
+}
+
+#overflowPanel .panel2 .cont1 {
+    text-align: right;
+}
+
+#overflowPanel .panel2 .cont1, #overflowPanel .panel2 .cont2 {
+    display: inline;
+    float: left;
+    width: 48.80952381%;
+    margin-left: .5952381%;
+    margin-right: .5952381%;
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0 2% 30px 2%;
+    font-size: 12px;
+}
+
+.cont1 {
+    display: inline;
+    float: left;
+    width: 48.80952381%;
+    margin-left: .5952381%;
+    margin-right: .5952381%;
+    margin: 0;
+}
+
+#dashboard #overflowPanel .panel2 .tit1 {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 #fff;
+    padding: 10px 0;
+    margin: 0 0 5px 0;
+    text-align: center;
+    color: #666c75;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+#overflowPanel .panel2 .tit1 {
+    display: block;
+    color: #5a5f68;
+    /*font-size: 16px;*/
+    /*margin: 0 0 .5em 0;*/
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 #fff;
+    padding: 10px 0;
+    margin: 0 0 5px 0;
+    text-align: center;
+    /*color: #666c75;*/
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.tit1 {
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+}
+
+ #jsCampaignEdit {
+    position: relative;
+}
+
+input[disabled], input[readonly], select[disabled], select[readonly], textarea[disabled], textarea[readonly] {
+    cursor: not-allowed;
+    background-color: #eee;
+}
+@media (min-width: 1200px) {
+
+    .uneditable-input, input, textarea {
+        margin-left: 0;
+    }
+
+    .uneditable-input, input, textarea {
+        margin-left: 0;
+    }
+
+    .uneditable-input, input, textarea {
+        width: 206px;
+    }
+
+    button, input, select, textarea {
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    button, input, label, select, textarea {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    button, input {
+        line-height: normal;
+    }
+
+    button, input, select, textarea {
+        margin: 0;
+        font-size: 100%;
+        vertical-align: middle;
+    }
+}
+
+.summary.ad-account {
+    width: 100%;
+    padding-right: 0;
+}
+
+ .summary {
+    box-sizing: border-box;
+    padding: 0;
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#overflowPanel .panel2 .summary .item {
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+    padding: 4px 0;
+    min-height: 2.3em;
+    overflow: hidden;
+    cursor: auto;
+    white-space: normal;
+    display: block;
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 #fff;
+}
+
+/*#overflowPanel .panel2 .summary .item:last-child {*/
+    /*margin-bottom: 0;*/
+    /*border-right: 0;*/
+    /*box-shadow: none;*/
+/*}*/
+
+/*#overflowPanel .panel2 .summary .item {*/
+    /*display: inline-block;*/
+    /*font-size: 12px;*/
+    /*padding-right: 5px;*/
+    /*margin-right: 2px;*/
+    /*border-right: 1px solid rgba(0,0,0,.1);*/
+    /*box-shadow: 1px 0 0 #fff;*/
+    /*white-space: nowrap;*/
+    /*color: #4f535a;*/
+/*}*/
+
+#overflowPanel .panel2 .summary.ad-account .item:last-child strong {
+    display: inline-block;
+}
+@media only screen and (max-width: 1490px) {
+
+    #dashboard #overflowPanel .panel2 .summary .item:last-child strong {
+        display: block;
+    }
+}
+
+#overflowPanel .panel2 .summary .item input, #dashboard #overflowPanel .panel2 .summary .item select, #dashboard #overflowPanel .panel2 .summary .item span, #dashboard #overflowPanel .panel2 .summary .item strong {
+        display: inline-block;
+        padding: 4px 3px;
+        margin: 0;
+        line-height: normal;
+        font-size: 12px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+#overflowPanel .panel2 .summary strong {
+        font-weight: 700;
+        padding-left: 0;
+        color: #4f535a;
+    }
+
+    #overflowPanel .panel2 .summary .item strong {
+        /*font-weight: 400;*/
+        color: #4f535a;
+    }
+
+    strong {
+        font-weight: 700;
+    }
+    user agent stylesheet
+    strong, b {
+        font-weight: bold;
+    }
+
+#dashboard #overflowPanel .panel2 .summary.ad-account .item strong:before {
+    content: "\e6fa";
+    font-family: icons2-adespresso;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1em;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+#dashboard #overflowPanel .panel2 .summary .item span {
+    border: 1px solid transparent;
+}
+
+#dashboard #overflowPanel .panel2 .summary .item input, #dashboard #overflowPanel .panel2 .summary .item select, #dashboard #overflowPanel .panel2 .summary .item span, #dashboard #overflowPanel .panel2 .summary .item strong {
+    display: inline-block;
+    padding: 4px 3px;
+    margin: 0;
+    line-height: normal;
+    font-size: 12px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#overflowPanel .panel2 .summary .item span {
+    color: #373a3f;
+    padding-left: 5px;
+}
+
+
+#dashboard #overflowPanel .panel2 .summary .item .modify-field {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+form .field {
+    margin-top: 5px;
+    position: relative;
+}
+
+#dashboard #overflowPanel .panel2 .summary .item .modify-field input, #dashboard #overflowPanel .panel2 .summary .item .modify-field select {
+    padding: 0 3px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    height: auto;
+    width: 10em;
+    border-radius: 2px;
+}
+
+.cw-autocomplete-container, .uneditable-input, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=tel], input[type=color], input[type=search], select, textarea {
+    font-size: 14px;
+    border: 1px solid #9ea3aa;
+    color: #000;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.5);
+}
+
+input[disabled], input[readonly], select[disabled], select[readonly], textarea[disabled], textarea[readonly] {
+    cursor: not-allowed;
+    background-color: #eee;
+}
+
+.uneditable-input, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=tel], input[type=color], input[type=search], textarea {
+    background-color: #fff;
+    border: 1px solid #9ea3aa;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border linear .2s,box-shadow linear .2s;
+}
+
+.uneditable-input, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=tel], input[type=color], input[type=search], select, textarea {
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A8ACB3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+#dashboard #overflowPanel .panel2 .summary:last-of-type {
+    float: right;
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+#overflowPanel .panel2 .summary.bid-bill-optim {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+}
+
+ #overflowPanel .panel2 .summary.bid-bill-optim>.item {
+    position: relative;
+}
+
+ #overflowPanel .panel2 .summary.bid-bill-optim select {
+    width: auto;
+    max-width: 90%;
+}
+
+ #overflowPanel .panel2 .summary.bid-bill-optim>.item .subitem {
+    display: inline-block;
+}
+
+#overflowPanel .panel2 .summary.bid-bill-optim>.item .subitem strong {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1490px) {
+
+    #dashboard #overflowPanel .panel2 .summary .item:last-child strong {
+        display: block;
+    }
+}
+
+#dashboard #overflowPanel .panel2 .summary .item .btn-icon.icon-pencil {
+    margin: 3px 3px 0 0;
+    vertical-align: middle;
+}
+
+#overflowPanel .panel2 .summary .item .btn-icon {
+    float: right;
+    margin-right: -3px;
+    text-decoration: none;
+    color: #373a3f;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    background-image: none;
+    width: auto;
+}
+
+.btn-icon {
+    display: inline-block;
+    text-align: center;
+    margin-right: 3px;
+    vertical-align: middle;
+    text-decoration: none;
+    background: 0 0;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: inherit;
+    text-decoration: none;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-top: 0;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon-pencil {
+    background-position: 0 -72px;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+
+#dashboard #overflowPanel .panel2 .summary.weekly-plan {
+    width: 100%;
+    padding-right: 0;
+}
+
+
+#dashboard #overflowPanel .panel2 .summary {
+    box-sizing: border-box;
+    padding: 0;
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#overflowPanel .panel2 .tag-list {
+    clear: both;
+    padding-top: 10px;
+    text-align: left;
+}
+
+#overflowPanel .panel2 .tag-list strong {
+    display: inline;
+}
+
+strong {
+    font-weight: 700;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+#overflowPanel .panel2 .tag-list div {
+    display: inline;
+}
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+#overflowPanel .panel2 .tag-list .cw-autocomplete-container {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 0;
+    border: none;
+    background: 0 0;
+}
+
+#overflowPanel .panel2 .tag-list div {
+    display: inline;
+}
+
+.cw-autocomplete-container.cw-autocomplete-multiple {
+    position: relative;
+    border: 1px solid #9ea3aa;
+    color: #000;
+    background-color: #fff;
+    height: auto;
+    min-height: 20px;
+    padding: 1px 60px 2px 10px;
+    font-size: 14px;
+    float: left;
+    width: 95%;
+    border-radius: 3px;
+}
+
+.cw-autocomplete-container, .uneditable-input, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=tel], input[type=color], input[type=search], select, textarea {
+    font-size: 14px;
+    border: 1px solid #9ea3aa;
+    color: #000;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.5);
+}
+
+#dashboard #overflowPanel .panel2 .cont1, #dashboard #overflowPanel .panel2 .cont2 {
+    padding: 0 2% 30px 2%;
+    font-size: 12px;
+}
+
+#overflowPanel .panel2 .cont2 {
+    overflow: hidden;
+    border-left: 1px solid rgba(0,0,0,.1);
+    box-shadow: 1px 0 0 #fff inset;
+    float: none;
+    padding-left: 2%;
+    padding-right: 0;
+}
+
+
+.cont2 {
+    margin: 0;
+    float: right;
+}
+
+.for {
+    color: #7f858f;
+    font-weight: 700;
+    height: 35px;
+    padding-top: 3px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    text-shadow: 0 1px 0 #fff;
+    margin-left: -50px;
+    left: 50%;
+    top: 0;
+    font-size: 14px;
+}
+
+#dashboard #overflowPanel .panel2 .cont2 .tit1 {
+    margin-bottom: 10px;
+}
+
+#dashboard #overflowPanel .panel2 .tit1 {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 #fff;
+    padding: 10px 0;
+    margin: 0 0 5px 0;
+    text-align: center;
+    color: #666c75;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+#overflowPanel .panel2 .tit1 {
+    display: block;
+    color: #5a5f68;
+    font-size: 16px;
+    margin: 0 0 .5em 0;
+}
+
+.tit1 {
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}

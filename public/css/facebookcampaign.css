@@ -789,7 +789,17 @@ input[type=tel], input[type=color], input[type=search], select, textarea {
     .uneditable-input, input, textarea {
         width: 206px;
     }
+
+    button, input, label, select, textarea {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
 }
+
+
 
 ul {
     list-style: none;
@@ -842,9 +852,8 @@ body {
     overflow: scroll;
     overflow-x: auto;
 }
-.head-box, .list-cat .list, body {
-    text-shadow: 0 1px 0 #fff;
-}
+
+
 
 
 
