@@ -194,7 +194,7 @@
               <span class="alert alert-timezone alert-info">
                                               </span>
                     </div>
-                    <div id="cwgraph" class="graph" style="height:370px; padding: 0px;" data-highcharts-chart="0">
+                    <div id="cwgraph" class="graph" style="height:370px; padding: 0px;" data-chart="0">
                         <div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 823px; height: 370px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">
                             <svg version="1.1" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="823" height="370">
                                 <desc>Created with Highcharts 4.2.6</desc>

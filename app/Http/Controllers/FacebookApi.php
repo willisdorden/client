@@ -90,7 +90,6 @@ class FacebookApi extends Controller
             $fields,
             $params
         )->getResponse()->getContent(), JSON_PRETTY_PRINT);
-
 //        dd(gettype ( $jsonResponse ));
         $arrayResponse = json_decode($jsonResponse);
 
